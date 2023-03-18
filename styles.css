@@ -9,8 +9,8 @@
     width: 100vw;
     background: linear-gradient(
       90deg,
-      rgba(2, 133, 24, 0.904) 50%,
-      rgba(215,238,6) 50%
+      rgba(192, 17, 17, 0.904) 0%,
+      rgba(228, 22, 22) 100%
     );
   }
   
@@ -30,7 +30,7 @@
   .board.x .cell:not(.x):not(.circle):hover::before,
   .board.circle .cell:not(.x):not(.circle):hover::after,
   .board.x .cell:not(.x):not(.circle):hover::before {
-    background: rgba(17,37,214, 0.3) !important;
+    background: rgba(67, 5, 212) !important;
   }
   
   /* Célula */
